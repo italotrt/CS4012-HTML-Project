@@ -1,0 +1,181 @@
+body {
+  background-image: url(https://www.onlygfx.com/wp-content/uploads/2018/03/orange-polygonal-background-fade-3.png);
+  background-repeat: no-repeat;
+}
+
+body.about {
+  background-image: url(https://c.tenor.com/CWgfFh7ozHkAAAAC/rick-astly-rick-rolled.gif);
+  background-repeat: repeat;
+  background-size: 30%;
+}
+
+iframe.about {
+  width:800px;
+  height:600px;
+  border:none;
+}
+
+iframe.ref {
+  width:500px;
+  height:450px;
+  border:2px solid black;
+}
+
+p.ref {
+  text-align:center;  
+}
+
+div.body {
+  font-size:120%;
+  background-color:rgba(255,255,255,0.8);
+  padding-left:2%;
+  padding-right:2%;
+  border:2px solid;
+  border-radius: 10px;
+  margin:4%;
+}
+
+div.nav-links {
+  font-size:100%;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.nav {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+img {
+  width:30%;
+  height:10%;
+  align:middle;
+  border: 1px solid black;
+}
+
+img.logo {
+  width:30%;
+  height:30%;
+  margin-top:10px;
+  border:none;
+}
+
+img.donate {
+  width:25%;
+  height:20%;
+  border:none;
+}
+
+img.members {
+  width:80%;
+  height:100%;
+  border:1px solid black;
+}
+
+img.content {
+  width:40%;
+  height:30%;
+  float: right;
+  border: 1px solid black;
+  margin: 0px 0px 15px 20px;
+}
+
+article {
+  margin:5% 10%;
+}
+
+a.ref {
+  text-decoration:none;
+}
+
+div.members {
+  margin:5% 10%;
+  text-align:center;
+}
+
+.container {
+	position: relative;
+	width: auto;
+}
+
+.image {
+	opacity: 1;
+	display: block;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border: 10px solid rgb(0, 0, 0);
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: rgba(255, 135, 56, 0.75);
+	color: black;
+	font-size: 16px;
+	padding: 16px 32px;
+  border: 2px solid #d3671f;
+  border-radius: 10px;
+}
+
+.row1 {
+  display: flex;
+}
+
+.row2 {
+  display:flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 15px;
+}
+
+p {
+  font-size:115%;
+}
+
+p.footer {
+  font-size:90%;
+}
+
+p.id {
+  font-size:85%;
+}
+
+p.about {
+  text-align:center;
+}
