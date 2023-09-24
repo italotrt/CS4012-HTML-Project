@@ -1,4 +1,4 @@
-# CS4012-HTML-Project-AY20/21
+# CS4012-HTML-Project
 This is a group assignment (four per group) to produce a web site for a not for profit (fictional) organisation. The site must be built using just a text editor (e.g. Notepad++). Web building tools are not allowed.
 
 ## The assignment must include:
